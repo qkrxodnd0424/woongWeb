@@ -2,7 +2,7 @@
     margin:0;
   }
   a {
-    color:black;
+    color:gray;
     text-decoration: none;
   }
   h1 {
@@ -10,7 +10,17 @@
     text-align:center;
     border-bottom:1px solid gray;
     margin:0;
-    padding:15px;
+    padding:20px;
+  }
+  h2 {
+    font-size :30px;
+  }
+  li {
+    font-size :17px;
+    padding-bottom: 30px;
+  }
+  p {
+    padding-left: 15px;
   }
   #grid {
     display:grid;
