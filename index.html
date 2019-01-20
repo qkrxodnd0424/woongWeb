@@ -2,34 +2,60 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>WEB1 - Title</title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132756107-1"></script>
-    <script>
-       window.dataLayer = window.dataLayer || [];
-       function gtag(){dataLayer.push(arguments);}
-       gtag('js', new Date());
-
-       gtag('config', 'UA-132756107-1');
-    </script>
+    <title>태웅's 게임</title>
+    <style>
+      h1 {
+        font-size:70px;
+        color:gray;
+        text-align:center;
+        white-space: nowrap;
+      }
+      ol {
+        width:90px;
+        margin-left:auto;
+        margin-right:auto;
+      }
+      h2 {
+        text-align: center;
+        font-size: 40px;
+      }
+      p {
+        font-size: 17px;
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
-    <h1><a href="index.html">WEB</a></h1>
+    <h1 style="font-size:70px; color:gray">태웅's의 게임</h1>
     <ol>
       <li><a href="1.html">HTML</a></li>
       <li><a href="2.html">CSS</a></li>
       <li><a href="3.html">JavaScript</a></li>
     </ol>
-    <h2>WEB</h2>
-    <p>The World Wide Web (abbreviated WWW or the Web)
-      is an information space where documents
-      and other web resources are identified by Uniform Resource Locators
-      (URLs), interlinked by hypertext links,
-      and can be accessed via the Internet.[1] English scientist Tim
-      Berners-Lee invented the World Wide Web in 1989.
-      He wrote the first web browser computer program in 1990 while employed
-      at CERN in Switzerland.[2][3] The Web browser was released outside of
-      CERN in 1991, first to other research institutions starting in January
-      1991 and to the general public on the Internet in August 1991.</p>
+    <h2>소개</h2>
+    <p>지금까지 만들어 온 간단한 게임들을 소개해드릴겁니다.</p>
+
+    <script> // 댓글기능 </script>
+    <p>
+     <div id="disqus_thread"></div>
+     <script>
+     /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+     /*
+     var disqus_config = function () {
+     this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+     this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+     };
+     */
+     (function() { // DON'T EDIT BELOW THIS LINE
+     var d = document, s = d.createElement('script');
+     s.src = 'https://web1-eewdafpfpg.disqus.com/embed.js';
+     s.setAttribute('data-timestamp', +new Date());
+     (d.head || d.body).appendChild(s);
+     })();
+     </script>
+     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </p>
   </body>
 </html>
